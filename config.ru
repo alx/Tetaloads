@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra'
+require 'rack-uploads'
 
 Sinatra::Application.default_options.merge!(
   :run => false,
