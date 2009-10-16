@@ -6,3 +6,6 @@ post "/uploads" do
   end
 end
 
+get "/" do
+  "Hello Upload World"
+end
